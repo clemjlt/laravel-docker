@@ -20,7 +20,7 @@ RUN apk add --no-cache \
     git \
     icu-dev \
     icu-libs \
-    imagemagick-dev \
+    imagemagick \
     libc-dev \
     libjpeg-turbo-dev \
     libpng-dev \
@@ -34,8 +34,7 @@ RUN apk add --no-cache \
     openssh-client \
     postgresql-libs \
     rsync \
-    zlib-dev \
-    
+    zlib-dev
 
 # Install PECL and PEAR extensions
 RUN pecl install \
@@ -57,7 +56,6 @@ RUN docker-php-ext-install \
     curl \
     exif \
     gd \
-    gmp \
     iconv \
     intl \
     mbstring \
