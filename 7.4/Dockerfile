@@ -20,7 +20,7 @@ RUN apk add --no-cache \
     git \
     icu-dev \
     icu-libs \
-    imagemagick \
+    imagemagick-dev \
     libc-dev \
     libjpeg-turbo-dev \
     libpng-dev \
