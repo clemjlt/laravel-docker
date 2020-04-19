@@ -18,7 +18,6 @@ RUN apk add --no-cache \
     g++ \
     gcc \
     git \
-    gmp \
     icu-dev \
     icu-libs \
     imagemagick \
@@ -58,6 +57,7 @@ RUN docker-php-ext-install \
     curl \
     exif \
     gd \
+    gmp \
     iconv \
     intl \
     mbstring \
