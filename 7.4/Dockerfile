@@ -66,7 +66,8 @@ RUN docker-php-ext-install \
     pcntl \
     tokenizer \
     xml \
-    zip
+    zip \
+    gmp
 
 # Install composer
 ENV COMPOSER_HOME /composer
