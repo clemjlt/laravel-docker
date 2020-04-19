@@ -18,6 +18,7 @@ RUN apk add --no-cache \
     g++ \
     gcc \
     git \
+    gmp \
     icu-dev \
     icu-libs \
     imagemagick \
@@ -34,7 +35,8 @@ RUN apk add --no-cache \
     openssh-client \
     postgresql-libs \
     rsync \
-    zlib-dev
+    zlib-dev \
+    
 
 # Install PECL and PEAR extensions
 RUN pecl install \
